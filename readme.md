@@ -47,6 +47,18 @@ add command script to package:
         "lint:all": "npm run lint:eslint && npm run lint:stylelint",
         "lint:eslint": "eslint --cache --cache-file .cache/.eslintcache --ext .js,.html,.ts .",
         "lint:stylelint": "stylelint ./**/*.{css,scss}",
+        "prepare":"husky install",
     }
 }
+```
+
+## husky & commitlint
+
+Add a hook:
+
+```bash
+
+yarn husky add .husky/pre-commit "yarn lint:all"
+yarn husky add .husky/commit-msg 'yarn commitlint --edit $1'
+
 ```

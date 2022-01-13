@@ -58,6 +58,7 @@ Add a hook:
 
 ```bash
 
+yarn husky install
 yarn husky add .husky/pre-commit "yarn lint:all"
 yarn husky add .husky/commit-msg 'yarn commitlint --edit $1'
 

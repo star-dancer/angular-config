@@ -4,7 +4,8 @@
   "description": "eslint config angular",
   "main": "dist/index.js",
   "scripts": {
-    "prepublish": "tsc --build --clean && tsc --build"
+    "prepublish": "tsc --build --clean && tsc --build",
+    "syncyarnlock": "syncyarnlock -s -k"
   },
   "author": "rikka",
   "license": "ISC",
@@ -25,7 +26,7 @@
     "eslint-plugin-jsdoc": "^37.6.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-regexp": "^1.5.1",
-    "eslint-plugin-rxjs": "^5.0.0",
+    "eslint-plugin-rxjs": "^5.0.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-sort-class-members": "^1.14.1",
     "eslint-plugin-tsdoc": "^0.2.14",
@@ -38,8 +39,9 @@
     "stylelint": "^14.2.0",
     "stylelint-config-property-sort-order-smacss": "^8.0.0",
     "stylelint-scss": "^4.1.0",
+    "syncyarnlock": "^1.0.19",
     "typescript": "^4.5.4",
-    "webpack": "^5.65.0",
+    "webpack": "^5.66.0",
     "webpack-obfuscator": "^3.5.0"
   },
   "peerDependencies": {
@@ -65,13 +67,13 @@
     "eslint-plugin-unicorn": "^40.0.0",
     "eslint-webpack-plugin": "^3.1.1",
     "javascript-obfuscator": "^3.0.0",
+    "postcss": "^8.4.5",
+    "postcss-scss": "^4.0.3",
     "prettier": "^2.5.1",
     "stylelint": "^14.2.0",
     "stylelint-config-property-sort-order-smacss": "^8.0.0",
     "stylelint-scss": "^4.1.0",
     "webpack": "^5.65.0",
-    "webpack-obfuscator": "^3.5.0",
-    "postcss": "^8.4.5",
-    "postcss-scss": "^4.0.3"
+    "webpack-obfuscator": "^3.5.0"
   }
 }

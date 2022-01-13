@@ -1,5 +1,4 @@
 # @star-dancer/angular-config
----
 This package provides Star-Dancer project
 
 ## Usage

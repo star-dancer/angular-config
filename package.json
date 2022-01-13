@@ -1,6 +1,6 @@
 {
   "name": "@star-dancer/angular-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "eslint config angular",
   "main": "dist/index.js",
   "scripts": {

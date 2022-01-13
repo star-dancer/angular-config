@@ -38,7 +38,14 @@ module.exports = require("@star-dancer/angular-config").PRETTIER_CONFIG;
 /* eslint-env node */
 module.exports = require("@star-dancer/angular-config").STYLELINT_CONFIG;
 ```
+---
+```javascript
+// commitlint
+/* eslint-env node */
+module.exports = { extends: ["@commitlint/config-conventional"] };
 
+```
+---
 add command script to package:
 
 ```json
